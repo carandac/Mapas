@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Prueba01Ruta</name>
+    <description>Pollinica</description>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Carrefour Express</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4231736,36.7208382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa del Libro</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4224915,36.720356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ZARA</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4222613,36.7193025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pampa Grill Málaga</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4208355,36.7215309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Indicaciones de Casa del Libro a Carrefour Express</name>
+      <Placemark>
+        <name>Indicaciones de Casa del Libro a Carrefour Express</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -4.42252,36.72024,0
+            -4.42272,36.72027,0
+            -4.42269,36.72046,0
+            -4.42268,36.7205,0
+            -4.42269,36.72063,0
+            -4.42268,36.7209,0
+            -4.42277,36.7209,0
+            -4.42299,36.72091,0
+            -4.42306,36.72091,0
+            -4.42317,36.72092,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Casa del Libro</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4225158,36.7202387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrefour Express</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4231653,36.720915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Indicaciones de Casa del Libro a Carrefour Express</name>
+      <Placemark>
+        <name>Indicaciones de Casa del Libro a Carrefour Express</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -4.42412,36.72022,0
+            -4.4243,36.72012,0
+            -4.42441,36.72007,0
+            -4.42439,36.72005,0
+            -4.42436,36.72001,0
+            -4.42428,36.71986,0
+            -4.42428,36.71985,0
+            -4.42434,36.71982,0
+            -4.42441,36.7198,0
+            -4.42448,36.71978,0
+            -4.42455,36.71977,0
+            -4.42461,36.71993,0
+            -4.42484,36.7199,0
+            -4.42491,36.71991,0
+            -4.42494,36.71991,0
+            -4.42498,36.71991,0
+            -4.42501,36.71991,0
+            -4.42515,36.71999,0
+            -4.42514,36.72014,0
+            -4.42511,36.72017,0
+            -4.42509,36.7202,0
+            -4.42508,36.72022,0
+            -4.42508,36.72024,0
+            -4.42508,36.72027,0
+            -4.42507,36.72036,0
+            -4.42507,36.72046,0
+            -4.42507,36.72053,0
+            -4.42507,36.72054,0
+            -4.42507,36.72064,0
+            -4.42485,36.72066,0
+            -4.42472,36.72068,0
+            -4.42467,36.72068,0
+            -4.42444,36.7207,0
+            -4.4242,36.72072,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Casa del Libro</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4241157,36.720222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrefour Express</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4241979,36.7207249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Indicaciones de Pampa Grill Málaga a ZARA</name>
+      <Placemark>
+        <name>Indicaciones de Pampa Grill Málaga a ZARA</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -4.42088,36.72155,0
+            -4.42103,36.72133,0
+            -4.42112,36.72119,0
+            -4.42113,36.72114,0
+            -4.42114,36.72112,0
+            -4.42126,36.72094,0
+            -4.42138,36.72077,0
+            -4.42139,36.72075,0
+            -4.42162,36.72077,0
+            -4.4217,36.72078,0
+            -4.4217,36.72071,0
+            -4.42169,36.72063,0
+            -4.42167,36.72045,0
+            -4.42165,36.72027,0
+            -4.42163,36.72009,0
+            -4.42162,36.71994,0
+            -4.42161,36.71988,0
+            -4.42161,36.71983,0
+            -4.42159,36.71965,0
+            -4.42158,36.71947,0
+            -4.42154,36.71926,0
+            -4.42176,36.71923,0
+            -4.42177,36.71923,0
+            -4.4219,36.71922,0
+            -4.42212,36.71923,0
+            -4.42227,36.71923,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pampa Grill Málaga</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4208807,36.7215502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ZARA</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4222658,36.7192333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Capa sin nombre</name>
+    </Folder>
+  </Document>
+</kml>
