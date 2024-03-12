@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 53 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d9a359;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-10 {
+        mix-blend-mode: multiply;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-7" x="-264.22" y="280.9" width="1367" height="137"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-7" x="-265.22" y="-3101.66" width="1367" height="3712.56"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-7" x="-264.22" y="280.9" width="1364" height="329"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-7" x="-270.52" y="-3172.66" width="1381.3" height="3862.56"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-7" x="93" y="-2461" width="1371" height="915"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-7" x="95.16" y="-2460.32" width="1367" height="3378.56"/>
+    </clipPath>
+    <image id="image" width="7000" height="4666" xlink:href="../../white-parchment-paper.jpg"/>
+  </defs>
+  <g class="cls-3">
+    <g id="Capa_1" data-name="Capa 1">
+      <g class="cls-6">
+        <g class="cls-10">
+          <g class="cls-4">
+            <use transform="translate(1843.07 -3556.09) rotate(90) scale(.61)" xlink:href="#image"/>
+          </g>
+        </g>
+        <g class="cls-2">
+          <g class="cls-10">
+            <g class="cls-8">
+              <use transform="translate(1709.3 -3180.2) rotate(90) scale(.55)" xlink:href="#image"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="_5" data-name="5">
+        <path class="cls-1" d="m48.94,18.32H13.18s10.95-10.84,10.95-10.84c.92-.92.92-2.4,0-3.31s-2.4-.92-3.31,0l-14.92,14.92c-.49.49-.68,1.09-.64,1.68,0,.61.22,1.22.68,1.68l14.87,14.87c.92.92,2.4.92,3.31,0s.92-2.4,0-3.31l-10.99-10.99h35.79v-4.69Z"/>
+      </g>
+      <g class="cls-5">
+        <g class="cls-10">
+          <g class="cls-9">
+            <use transform="translate(2203.45 -2914.75) rotate(90) scale(.61)" xlink:href="#image"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
